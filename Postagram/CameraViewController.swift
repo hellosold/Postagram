@@ -13,6 +13,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate,
     UINavigationControllerDelegate {
 
     @IBOutlet weak var imageView: UIImageView!
+    
     @IBOutlet weak var commentField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +28,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate,
         post["author"] = PFUser.current()!
      
         let imageData = imageView.image!.pngData()
-        let file = PFFileObject(data: imageData!)
+        let file = PFFileObject(name: "image.png", data: imageData!)
         
         post["image"] = file
         
@@ -58,7 +59,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate,
         let image = info[.editedImage] as! UIImage
         
         let size = CGSize(width: 300, height: 300)
-        let scaledImage = image.af_imageScaled(to: size)
+        let scaledImage = image.af.imageScaled(to: size)
         
         imageView.image = scaledImage
         
