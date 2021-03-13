@@ -23,4 +23,5 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="postagram.gif" width="250"/>
+<img src="Untitled2.gif" width="250"/>
+<img src="Untitled.gif" width="250"/>
