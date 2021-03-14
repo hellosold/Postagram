@@ -25,5 +25,5 @@ Here's a walkthrough of implemented user stories:
 
 <img src="Untitled.gif" width="250"/>
 <img src="Untitled2.gif" width="250"/>
-<img src="Untitled3.gif" width="250"/>
+<img src="untitled3.gif" width="250"/>
 
