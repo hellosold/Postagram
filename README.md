@@ -23,5 +23,11 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+<<<<<<< HEAD
 <img src="Untitled2.gif" width="250"/>
 <img src="Untitled.gif" width="250"/>
+=======
+<img src="Untitled.gif" width="250"/>
+<img src="Untitled2.gif" width="250"/>
+<img src="Untitled3.gif" width="250"/>
+>>>>>>> cd2406eb01ff1b8015f4394ba101978fc9b9ae29
