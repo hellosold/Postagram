@@ -22,7 +22,8 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="postagram2.gif" width="250"/>
+<img src="p1.gif" width="250"/>
+<img src="p2.gif" width="250"/>
 
 # Parstagram - Part I
 
