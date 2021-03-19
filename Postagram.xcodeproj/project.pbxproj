@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4DCE5073AFB5DC88A7B8337D /* Pods_Postagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E740CD89539FF185751838B2 /* Pods_Postagram.framework */; };
+		5F08CA4125FEC5B400C74026 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F08CA4025FEC5B400C74026 /* CommentCell.swift */; };
 		5F0C6BAB25F4685B00BB63C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0C6BAA25F4685B00BB63C7 /* AppDelegate.swift */; };
 		5F0C6BAD25F4685B00BB63C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0C6BAC25F4685B00BB63C7 /* SceneDelegate.swift */; };
 		5F0C6BB225F4685B00BB63C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0C6BB025F4685B00BB63C7 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		01A3531DD6B6E38EFA750B98 /* Pods-Postagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Postagram.release.xcconfig"; path = "Target Support Files/Pods-Postagram/Pods-Postagram.release.xcconfig"; sourceTree = "<group>"; };
 		1C5C7F4B0261F1FA93FE5BD6 /* Pods-PostagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostagramTests.debug.xcconfig"; path = "Target Support Files/Pods-PostagramTests/Pods-PostagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F08CA4025FEC5B400C74026 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		5F0C6BA725F4685B00BB63C7 /* Postagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0C6BAA25F4685B00BB63C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F0C6BAC25F4685B00BB63C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				5F0C6BE525F46A0600BB63C7 /* FeedViewController.swift */,
 				5F0C6BFC25F4832700BB63C7 /* CameraViewController.swift */,
 				5F2E2E6225FB59CD005C359B /* PostCell.swift */,
+				5F08CA4025FEC5B400C74026 /* CommentCell.swift */,
 			);
 			path = Postagram;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				5F0C6BE625F46A0600BB63C7 /* FeedViewController.swift in Sources */,
 				5F0C6BAD25F4685B00BB63C7 /* SceneDelegate.swift in Sources */,
 				5F2E2E6325FB59CD005C359B /* PostCell.swift in Sources */,
+				5F08CA4125FEC5B400C74026 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,7 +681,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 997A4D9A93E1E95BBF189686 /* Pods-Postagram-PostagramUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PostagramUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -697,7 +701,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 738B0D537B807ABF9EF1C276 /* Pods-Postagram-PostagramUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PostagramUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

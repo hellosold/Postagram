@@ -1,0 +1,6 @@
+framework module Pods_Postagram_PostagramUITests {
+  umbrella header "Pods-Postagram-PostagramUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
